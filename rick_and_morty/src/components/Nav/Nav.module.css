@@ -1,0 +1,13 @@
+.nav{
+  background-color: rgb(35, 100, 67);
+  display: flex;
+  height: 5em;
+}
+
+.searchBar{
+  float: right;
+  margin:auto;
+  margin-right: 2em;
+}
+
+
