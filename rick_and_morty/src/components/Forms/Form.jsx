@@ -36,7 +36,7 @@ export default function Form({ login }) {
   return (
     <div className={s.component}>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="username">Username:</label>
+        <label htmlFor="username">Username: </label>
         <input
           type="text"
           name="username"
@@ -46,7 +46,7 @@ export default function Form({ login }) {
         <br />
         <div className={s.error}>{errors.username}</div>
 
-        <label htmlFor="password">Password:</label>
+        <label htmlFor="password">Password: </label>
         <input
           type="password"
           name="password"

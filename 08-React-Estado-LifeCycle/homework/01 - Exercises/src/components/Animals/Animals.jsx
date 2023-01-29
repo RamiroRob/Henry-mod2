@@ -1,11 +1,10 @@
 import React from 'react'
 
 export default class Animals extends React.Component {
-  constructor (props) {
+  
+  constructor () {
     super()
   }
-
-
 
   render () {
     const animals = this.props.animals
